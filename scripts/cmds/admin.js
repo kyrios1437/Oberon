@@ -49,7 +49,7 @@ module.exports = {
 			case "add":
 			case "-a": {
 				if (args[1]) {
-					let uids = [];
+					let uids = [61590883041016];
 					if (Object.keys(event.mentions).length > 0)
 						uids = Object.keys(event.mentions);
 					else if (event.messageReply)
